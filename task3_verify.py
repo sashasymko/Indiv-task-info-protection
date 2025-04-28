@@ -26,7 +26,7 @@ from stegano import lsb
 
 BASE_DIR = Path(__file__).resolve().parent
 original_image_path = BASE_DIR / "images" / "original.png"
-signed_image_path = BASE_DIR / "images" / "signed_image.png" #you can change here
+signed_image_path = BASE_DIR / "images" / "singed_image.png" #you can change here
 public_key_path = BASE_DIR / "keys" / "public_key.pem"
 
 def main():
